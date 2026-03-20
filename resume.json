@@ -453,7 +453,37 @@
       "fluency": "Basic"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Mind-body practices",
+      "keywords": [
+        "Yoga",
+        "Meditation"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "keywords": [
+        "Metaphysics",
+        "Ontology",
+        "Epistemology",
+        "Taxonomy"
+      ]
+    },
+    {
+      "name": "Finance & Economics",
+      "keywords": [
+        "Investing",
+        "Trading"
+      ]
+    },
+    {
+      "name": "Open Source",
+      "keywords": [
+        "All of it"
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Leonardo Velarde",
@@ -522,7 +552,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T19:00:58.000Z",
+    "lastModified": "2026-03-20T19:22:57.000Z",
     "language": "en",
     "theme": {
       "sectionOrder": [

@@ -8,6 +8,7 @@ the actual theme to use. But `stackoverflow` theme uses it for its own purposes.
 - `basics.website` is not in the schema, use `basics.url`.
 - Paragraphs on formatted text should add spacing between them.
 - Education should have a `highlights` property.
+- References are adding a weird space between the quotes.
 
 Changes needed on the actions-deploy-gist:
 
