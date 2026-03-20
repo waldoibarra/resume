@@ -1,0 +1,23 @@
+name: Sync Resume JSON Gist
+run-name: "Sync resume.json → Gist: ${{ github.event.head_commit.message }}"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - resume.json
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Deploy to Gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.TOKEN }}
+          gist_id: e415a51d38e48f166a6311f352bd7d2a
+          file_path: resume.json
