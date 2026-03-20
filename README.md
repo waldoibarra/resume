@@ -11,24 +11,23 @@ npm install
 
 ## Quick Start
 
-Always validate your resume after making changes:
-
-```bash
-npx resume validate resume.json
-```
-
 Update the resume (`resume.json`) and render with a theme:
 
 ```bash
-npx resume serve --theme stackoverflow
+npm run dev
 ```
 
-Export to HTML / PDF:
+Export to HTML:
 
 ```bash
-# Export to HTML
-resume export resume.html --theme stackoverflow
+npm run export:html
+```
 
-# Export to PDF (not working?)
-resume export resume.pdf --theme stackoverflow
+## Updates
+
+Always validate the resume JSON schema and update the **last modified** property on the `resume.json`:
+
+```bash
+npm run validate
+npm run update
 ```

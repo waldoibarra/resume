@@ -1,10 +1,11 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Waldo Ibarra",
     "label": "Full Stack Engineer | Software Architect",
     "image": "https://www.gravatar.com/avatar/713bc0427b79df7ebd976432db93f315?s=256&d=identicon&r=PG",
     "email": "waldo.ibarra@linux.com",
-    "phone": "+52 33 1882 5463",
+    "phone": "+52 (33) 1882 5463",
     "website": "https://waldoibarra.com",
     "summary": "Software professional with 11+ years of experience building projects. I strive for doing so following best practices, design principles and architectures like Clean Code, Clean Architecture, SOLID, BDD, TDD, DDD.",
     "location": {
@@ -45,7 +46,7 @@
     },
     {
       "company": "Uniko",
-      "position": "Senior Back End Engineer",
+      "position": "Software Architect",
       "url": "https://uniko.co",
       "startDate": "2023-06-27",
       "location": "Remote",
@@ -376,6 +377,24 @@
   "references": [],
   "projects": [],
   "meta": {
-    "theme": "stackoverflow"
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-03-20T08:11:04.045Z",
+    "theme": {
+      "sectionOrder": [
+        "basics",
+        "skills",
+        "work",
+        "projects",
+        "volunteer",
+        "education",
+        "awards",
+        "certificates",
+        "publications",
+        "languages",
+        "interests",
+        "references"
+      ]
+    }
   }
 }
