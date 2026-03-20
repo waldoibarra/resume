@@ -379,7 +379,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T08:11:04.045Z",
+    "lastModified": "2026-03-20T09:45:57.000Z",
     "theme": {
       "sectionOrder": [
         "basics",

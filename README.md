@@ -22,12 +22,3 @@ Export to HTML:
 ```bash
 npm run export:html
 ```
-
-## Updates
-
-Always validate the resume JSON schema and update the **last modified** property on the `resume.json`:
-
-```bash
-npm run validate
-npm run update
-```

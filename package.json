@@ -2,11 +2,11 @@
   "scripts": {
     "dev": "resume serve --theme stackoverflow",
     "export:html": "resume export resume.html --theme stackoverflow",
-    "update": "tsx update-last-modified-date.ts",
-    "validate": "resume validate resume.json"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "25.5.0",
+    "husky": "9.1.7",
     "jsonresume-theme-stackoverflow": "3.1.1",
     "resume-cli": "3.0.8",
     "tsx": "4.21.0",
