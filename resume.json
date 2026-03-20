@@ -2,12 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Waldo Ibarra",
-    "label": "Full Stack Engineer | Software Architect",
+    "label": "Hands-On Software Architect | Applied AI Engineering",
     "image": "https://www.gravatar.com/avatar/713bc0427b79df7ebd976432db93f315?s=256&d=identicon&r=PG",
     "email": "waldo.ibarra@linux.com",
     "phone": "+52 (33) 1882 5463",
     "website": "https://waldoibarra.com",
-    "summary": "Software professional with 11+ years of experience building projects. I strive for doing so following best practices, design principles and architectures like Clean Code, Clean Architecture, SOLID, BDD, TDD, DDD.",
+    "url": "https://waldoibarra.com",
+    "summary": "Software Architect with 11+ years building scalable SaaS platforms, APIs, and cloud infrastructure — now specializing in applied AI engineering. Hands-on with RAG pipelines, LLM agents, QLoRA fine-tuning, and production eval frameworks, alongside deep expertise in TypeScript, Node.js, React, Python, AWS, Docker, and IaC. Proven leading ~55-person engineering orgs while staying close to the code; strong in Clean Architecture, DDD, and performance-driven system design.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -379,8 +380,9 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T09:45:57.000Z",
+    "lastModified": "2026-03-20T12:24:29.000Z",
     "theme": {
+      "language": "en",
       "sectionOrder": [
         "basics",
         "skills",
