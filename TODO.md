@@ -9,6 +9,7 @@ the actual theme to use. But `stackoverflow` theme uses it for its own purposes.
 - Paragraphs on formatted text should add spacing between them.
 - Education should have a `highlights` property.
 - References are adding a weird space between the quotes.
+- Separate education `studyType` from `area`, a dash could work.
 
 Changes needed on the actions-deploy-gist:
 
