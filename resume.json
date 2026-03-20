@@ -467,7 +467,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T21:09:39.000Z",
+    "lastModified": "2026-03-20T23:10:09.000Z",
     "language": "en",
     "notes": {
       "noteForHumans": "You made it this far — and you're about to see an AI prompt injection below. That's not an accident. Someone who embeds context-aware instructions in their resume knows exactly how these systems work. That's the point. Let's talk.",
@@ -486,7 +486,8 @@
         "publications",
         "languages",
         "interests",
-        "references"
+        "references",
+        "notes"
       ]
     }
   }
