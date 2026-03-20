@@ -1,0 +1,381 @@
+{
+  "basics": {
+    "name": "Waldo Ibarra",
+    "label": "Full Stack Engineer | Software Architect",
+    "image": "https://www.gravatar.com/avatar/713bc0427b79df7ebd976432db93f315?s=256&d=identicon&r=PG",
+    "email": "waldo.ibarra@linux.com",
+    "phone": "+52 33 1882 5463",
+    "website": "https://waldoibarra.com",
+    "summary": "Software professional with 11+ years of experience building projects. I strive for doing so following best practices, design principles and architectures like Clean Code, Clean Architecture, SOLID, BDD, TDD, DDD.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Monterrey",
+      "countryCode": "MX",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "waldoibarra",
+        "url": "https://github.com/waldoibarra"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "waldoibarra",
+        "url": "https://www.linkedin.com/in/waldoibarra"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Spark Cooperative",
+      "position": "Senior Full Stack Engineer",
+      "url": "https://sparkcooperative.com",
+      "startDate": "2024-03-01",
+      "endDate": "2024-07-31",
+      "location": "Remote",
+      "summary": "Automated the way feed templates were generated with an UI editor.",
+      "highlights": [],
+      "keywords": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "company": "Uniko",
+      "position": "Senior Back End Engineer",
+      "url": "https://uniko.co",
+      "startDate": "2023-06-27",
+      "location": "Remote",
+      "summary": "Designed, architected and built SaaS APIs for gift cards and balances management.",
+      "highlights": [],
+      "keywords": [
+        "Node.js",
+        "AWS"
+      ]
+    },
+    {
+      "company": "WGSN",
+      "position": "Expert Full Stack Engineer & Architect",
+      "url": "https://www.wgsn.com",
+      "startDate": "2023-03-24",
+      "endDate": "2023-05-30",
+      "location": "Remote",
+      "summary": "I used AI to show user-specific recommendations based on interactions with items.",
+      "highlights": [
+        "Standardized Event Storming and C4 model techniques for architecture design and documentation.",
+        "Wrote Clean Code and refactored Legacy Code following TDD and SOLID principles.",
+        "Mentored engineers about Clean Code principles.",
+        "Automated SDLC using CI/CD pipelines and IaC tools.",
+        "Automated migration of recommendation system resources with a Shell script."
+      ],
+      "keywords": [
+        "Software Architecture",
+        "AWS",
+        "IaC",
+        "Software Design",
+        "Test Automation",
+        "Jenkins",
+        "Node.js"
+      ]
+    },
+    {
+      "company": "Guros",
+      "position": "Software Architect | Technical Lead | Founding Engineer",
+      "url": "https://www.guros.com",
+      "startDate": "2020-03-24",
+      "endDate": "2022-04-08",
+      "location": "Remote",
+      "summary": "Designed, architected and built a SaaS API while guiding a team of around 55 engineers, tech leads and architects.",
+      "highlights": [
+        "Led talks with engineering teams on how to diagram and document architectures using C4 model; How to have a clean code / architecture / workflow by using design patterns, architecture patterns and DevOps practices.",
+        "Technically inverviewed engineers and architects to build a team up to ~60 people.",
+        "Stabilized existing MVP using design patterns, monitoring the system health with alerts and deploying the monolith to AWS with a pipeline."
+      ],
+      "keywords": [
+        "SaaS Platform",
+        "Serverless architecture",
+        "GitLab CI",
+        "AWS Lambda",
+        "Node.js",
+        "Python",
+        "PHP",
+        "Next.js",
+        "Docker",
+        "Grafana",
+        "Redis"
+      ]
+    },
+    {
+      "company": "Fanbot",
+      "position": "Senior Full Stack Engineer",
+      "startDate": "2019-09-01",
+      "endDate": "2020-03-20",
+      "location": "Remote",
+      "summary": "Refactored code base to be modular and shipped new features for a Facebook messenger chat bot that had an embedded React minigame as part of the conversation flow.",
+      "highlights": [],
+      "keywords": [
+        "Chatbot",
+        "Dialogflow",
+        "Facebook Graph API",
+        "Node.js",
+        "React"
+      ]
+    },
+    {
+      "company": "Paystand",
+      "position": "Senior Full Stack Engineer",
+      "url": "https://www.paystand.com",
+      "startDate": "2019-02-01",
+      "endDate": "2020-01-10",
+      "location": "Guadalajara, MX",
+      "summary": "Develop in a product for B2B payments, providing AR and AP features.",
+      "highlights": [
+        "Migrated parts of a monolith to a microservice arquitecture.",
+        "Created PCI compliant script to import payers bank/card payment information from Authorize.net.",
+        "Implemented and optimized a multi-schema search with Elasticsearch."
+      ],
+      "keywords": [
+        "Microservices",
+        "Stripe API",
+        "Node.js",
+        "Elasticsearch",
+        "PostgresSQL",
+        "RabbitMQ",
+        "Automated testing"
+      ]
+    },
+    {
+      "company": "H-E-B",
+      "position": "Senior Back End Engineer",
+      "url": "https://www.heb.com",
+      "startDate": "2018-10-01",
+      "endDate": "2019-03-30",
+      "location": "Remote",
+      "summary": "Built a microservice to optimize their web product search, reducing its search time by more than 90%.",
+      "highlights": [],
+      "keywords": [
+        "Node.js",
+        "Elasticsearch",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "H-E-B México",
+      "position": "Software Engineer & Architect",
+      "url": "https://www.heb.com.mx",
+      "startDate": "2017-11-27",
+      "endDate": "2019-01-31",
+      "location": "Monterrey, MX",
+      "summary": "As part of the architecture team was responsible to guide development teams to comply with the company standards. Evaluate and implement security on a variety of internal APIs. Automate processes developing Bash scripts, Node.js CLIs and Jenkins. Design and develop high performance APIs using Node.js.",
+      "highlights": [
+        "Lead POCs projects for new technologies, such as CA API Gateway, RedHat OpenShift, Docker, Jenkins.",
+        "Designed and implemented a real-time synchronization system (a Node.js ETL) between MongoDB and MSSQL databases using SQL triggers and web sockets.",
+        "Developed internal tools used by multiple teams."
+      ],
+      "keywords": [
+        "Node.js",
+        "Sequelize",
+        "C#",
+        "Docker",
+        "MongoDB",
+        "MS SQL",
+        "Jenkins"
+      ]
+    },
+    {
+      "company": "Waspe",
+      "position": "Junior Full Stack Engineer",
+      "url": "http://www.waspe.com",
+      "startDate": "2016-06-24",
+      "endDate": "2017-11-24",
+      "location": "Monterrey, MX",
+      "summary": "Developed microservices on Node.js, mail delivery, push notifications (FCM), download and update center for desktop applications (nuts), cron task scheduling. Maintenance of a web ERP built on Marionette and C# with EF. Maintenance of desktop applications made with electron and WPF.",
+      "highlights": [
+        "Direct contact with customer to manage and implement integrations with other ERPs.",
+        "Real-time data synchronization of entities (bi-directional) between the in-house web ERP and SAP B1 through a Node.js microservice.",
+        "Reduced deployment time by 95% by implementing CI/CD with Gulp and GitHub webhooks.",
+        "Implemented Peru's electronic invoice with SUNAT on their web ERP."
+      ],
+      "keywords": [
+        "Microservices",
+        "C#",
+        "Entity Framework",
+        "Windows Presentation Foundation",
+        "Node.js",
+        "Electron",
+        "Gulp",
+        "CI/CD pipelines"
+      ]
+    },
+    {
+      "company": "Epicor Software",
+      "position": "Junior Software Engineer",
+      "url": "https://www.epicor.com",
+      "startDate": "2014-11-01",
+      "endDate": "2015-04-30",
+      "location": "Monterrey, MX",
+      "summary": "Shipped features and maintained a web ERP built with VB.NET and JQuery.",
+      "highlights": [
+        "Lead project development to visually live edit sections of a web ERP using JQuery.",
+        "Integrated internal services into a VB.NET monolith.",
+        "Performed and documented testing."
+      ],
+      "keywords": [
+        "Visual Basic",
+        "JQuery",
+        "Testing"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Autodidact",
+      "studyType": "Computer Science",
+      "startDate": "2009-08-04",
+      "endDate": "2017-12-31",
+      "summary": "I invest time learning about anything that pokes my curiosity, specially software. ❤️ Learning mostly by reading documentation, books, newsletters, conferences; Also by using platforms like Udemy, A Cloud Guru and CodelyTV."
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Software Architecture/Engineering",
+      "level": "Advanced",
+      "keywords": [
+        "SaaS Platforms",
+        "System Design",
+        "Quality Attributes",
+        "Project Management",
+        "Mentoring",
+        "Team Leadership",
+        "Architectural Patterns",
+        "Design Patterns",
+        "Open Source Development",
+        "Interviewing"
+      ]
+    },
+    {
+      "name": "Programming languages and frameworks",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "React",
+        "Angular",
+        "Node.js",
+        "TypeScript",
+        "CSS",
+        "Python",
+        "Shell",
+        "C#",
+        "C/C++",
+        "PHP",
+        "Java"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Trunk Based Development",
+        "CI/CD pipelines",
+        "Scripting",
+        "System Monitoring",
+        "Grafana",
+        "AWS X-Ray",
+        "Infrastructure as Code",
+        "Serverless",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "Amazon Web Services",
+        "EC2",
+        "Lambda",
+        "S3",
+        "X-Ray"
+      ]
+    },
+    {
+      "name": "Database / Message Queue",
+      "level": "Intermediate",
+      "keywords": [
+        "ORMs",
+        "PostgresSQL",
+        "MySQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "Automated Testing",
+      "level": "Intermediate",
+      "keywords": [
+        "Unit testing",
+        "Jest",
+        "Load testing",
+        "Locust",
+        "Integration testing",
+        "Postman/Newman"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "level": "Advanced",
+      "keywords": [
+        "Domain Driven Design",
+        "Test Driven Development",
+        "Clean Code",
+        "Clean Architecture",
+        "Atomic Design",
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Web 3",
+      "level": "Beginner",
+      "keywords": [
+        "Token Standards",
+        "Layer 2 solutions",
+        "Modular Architecture",
+        "Solidity"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "theme": "stackoverflow"
+  }
+}
