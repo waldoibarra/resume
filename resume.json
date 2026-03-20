@@ -285,7 +285,6 @@
   "education": [
     {
       "institution": "Self-Directed Study",
-      "url": "",
       "area": "Software Engineering & Applied AI",
       "studyType": "Continuous Learning —",
       "startDate": "2010-01-02",
@@ -442,15 +441,15 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Expert"
     },
     {
       "language": "Chinese",
-      "fluency": "Beginner"
+      "fluency": "Moderate"
     },
     {
       "language": "Portuguese",
-      "fluency": "Beginner"
+      "fluency": "Basic"
     }
   ],
   "interests": [],
@@ -459,7 +458,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T16:29:43.000Z",
+    "lastModified": "2026-03-20T16:37:56.000Z",
     "language": "en",
     "theme": {
       "sectionOrder": [
