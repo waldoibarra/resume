@@ -49,7 +49,7 @@ async function updateResumeLastModified(resumeJsonFile: string): Promise<void> {
   ]);
 
   if (resume.meta.lastModified === lastModified) {
-    console.log(`meta.lastModified is already up to date: ${lastModified}`);
+    console.log(`Resume JSON meta.lastModified is already up to date: ${lastModified}`);
     return;
   }
 
