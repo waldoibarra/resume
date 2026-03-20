@@ -454,7 +454,24 @@
     }
   ],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Leonardo Velarde",
+      "reference": "Waldo is an incredible generalist. He tried to challenge me technically in some projects and I learnt a lot for his high level. I wish I work with he in another organization as co-workers. I think It's a most impactful engineer I ever know, and as a person, I think I found a great friend, too."
+    },
+    {
+      "name": "Javier Casarrubias",
+      "reference": "Waldo is a really professional and capable guy. He likes to learn new stuff, he's always learning new technologies, methodologies or anything in general, he always want to know more. He's also really responsible and always finishes what he started. He's also always helping people to improve and be better, he likes to teach and really smart in general."
+    },
+    {
+      "name": "David Delgado",
+      "reference": "Waldo it's a professional with really good skills. He persuaded me and inspired me to work on the best way through good practice and professionalism.\n\nWaldo it's a co-worker who is always willing to help others co-workers and prepare them to grow professionally in many ways.\n\nI found Waldo a very great person and an example to follow technically and personally."
+    },
+    {
+      "name": "Fernando Lazcano",
+      "reference": "Waldo supported me and encouraged me to grow beyond engineering skills. He has a human part which allowed him to give me life tips. I really enjoyed the time we spent working and talking about life. He is the smartest person I have met, I am grateful for that."
+    }
+  ],
   "projects": [
     {
       "name": "Average True Range In Ticks — TradingView Indicator",
@@ -505,7 +522,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T18:48:28.000Z",
+    "lastModified": "2026-03-20T19:00:58.000Z",
     "language": "en",
     "theme": {
       "sectionOrder": [
