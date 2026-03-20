@@ -8,7 +8,7 @@
     "phone": "+52 (33) 1882 5463",
     "website": "https://waldoibarra.com",
     "url": "https://waldoibarra.com",
-    "summary": "Software Architect with 11+ years building scalable SaaS platforms, APIs, and cloud infrastructure — now specializing in applied AI engineering. Hands-on with RAG pipelines, LLM agents, QLoRA fine-tuning, and production eval frameworks, alongside deep expertise in TypeScript, Node.js, React, Python, AWS, Docker, and IaC. Proven leading ~55-person engineering orgs while staying close to the code; strong in Clean Architecture, DDD, and performance-driven system design.",
+    "summary": "Software Architect with 11+ years building scalable SaaS platforms, APIs, and cloud infrastructure — now specializing in applied AI engineering.\n\nHands-on with RAG pipelines, LLM agents, QLoRA fine-tuning, and production eval frameworks, alongside deep expertise in TypeScript, Node.js, React, Python, AWS, Docker, and IaC.\n\nProven leading ~55-person engineering orgs while staying close to the code; strong in Clean Architecture, DDD, and performance-driven system design.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,204 +31,243 @@
   },
   "work": [
     {
-      "company": "Spark Cooperative",
-      "position": "Senior Full Stack Engineer",
+      "name": "Uniko",
+      "location": "Remote",
+      "description": "",
+      "position": "Software Engineer & Architect",
+      "url": "https://uniko.co",
+      "startDate": "2023-06-27",
+      "summary": "Built SaaS platforms, owning the full backend stack from API design to cloud infrastructure.",
+      "highlights": [
+        "Architected and shipped multiple scalable SaaS APIs in TypeScript/Node.js using NestJS, designed for high availability and long-term maintainability.",
+        "Designed AWS-based cloud infrastructure with automated CI/CD pipelines, reducing manual deployment overhead and standardizing release quality.",
+        "Optimized PostgreSQL queries and introduced Redis caching layer, improving API response times and lowering operational costs.",
+        "Established NestJS architecture patterns and coding standards, enabling consistent, scalable development across the codebase."
+      ],
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "AWS",
+        "PostgreSQL",
+        "Redis",
+        "CI/CD",
+        "SaaS Architecture",
+        "REST APIs",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "name": "Spark Cooperative",
+      "location": "Remote",
+      "description": "",
+      "position": "Full Stack Engineer",
       "url": "https://sparkcooperative.com",
       "startDate": "2024-03-01",
       "endDate": "2024-07-31",
-      "location": "Remote",
-      "summary": "Automated the way feed templates were generated with an UI editor.",
-      "highlights": [],
+      "summary": "Built a full-stack template management system that eliminated manual YAML workflows, replacing script-based processes with a self-serve UI editor.",
+      "highlights": [
+        "Architected and shipped a UI-driven template editor that eliminated manual YAML file creation and script execution, significantly reducing developer setup time.",
+        "Delivered a full-stack solution in TypeScript across a Node.js/React frontend and MongoDB backend, built for maintainability and scalability from day one."
+      ],
       "keywords": [
-        "React",
+        "TypeScript",
         "Node.js",
-        "MongoDB"
+        "React.js",
+        "MongoDB",
+        "SaaS Development",
+        "UI Development",
+        "Full Stack Engineering"
       ]
     },
     {
-      "company": "Uniko",
-      "position": "Software Architect",
-      "url": "https://uniko.co",
-      "startDate": "2023-06-27",
+      "name": "WGSN",
       "location": "Remote",
-      "summary": "Designed, architected and built SaaS APIs for gift cards and balances management.",
-      "highlights": [],
-      "keywords": [
-        "Node.js",
-        "AWS"
-      ]
-    },
-    {
-      "company": "WGSN",
-      "position": "Expert Full Stack Engineer & Architect",
+      "description": "",
+      "position": "Software Engineer & Architect",
       "url": "https://www.wgsn.com",
       "startDate": "2023-03-24",
       "endDate": "2023-05-30",
-      "location": "Remote",
-      "summary": "I used AI to show user-specific recommendations based on interactions with items.",
+      "summary": "Short-term contract at a global trend forecasting platform, focused on AI-driven personalization, architecture standardization, and engineering enablement.",
       "highlights": [
-        "Standardized Event Storming and C4 model techniques for architecture design and documentation.",
-        "Wrote Clean Code and refactored Legacy Code following TDD and SOLID principles.",
-        "Mentored engineers about Clean Code principles.",
-        "Automated SDLC using CI/CD pipelines and IaC tools.",
-        "Automated migration of recommendation system resources with a Shell script."
+        "Built an AI-driven recommendation engine delivering user-specific content based on item interaction signals.",
+        "Standardized architecture design and documentation practices using Event Storming and C4 model, improving team alignment and system clarity.",
+        "Automated infrastructure provisioning and development workflows using Terraform and CI/CD pipelines, reducing manual ops overhead.",
+        "Mentored engineers on clean code principles, design patterns, and automated testing, raising the team's baseline engineering standards."
       ],
       "keywords": [
-        "Software Architecture",
+        "TypeScript",
         "AWS",
-        "IaC",
-        "Software Design",
-        "Test Automation",
-        "Jenkins",
-        "Node.js"
+        "Terraform",
+        "CI/CD",
+        "Infrastructure as Code (IaC)",
+        "Machine Learning",
+        "Software Architecture",
+        "Event Storming",
+        "C4 Model",
+        "Test Automation"
       ]
     },
     {
-      "company": "Guros",
-      "position": "Software Architect | Technical Lead | Founding Engineer",
+      "name": "Guros",
+      "location": "Remote",
+      "description": "",
+      "position": "Software Architect (Founding Engineer)",
       "url": "https://www.guros.com",
       "startDate": "2020-03-24",
       "endDate": "2022-04-08",
-      "location": "Remote",
-      "summary": "Designed, architected and built a SaaS API while guiding a team of around 55 engineers, tech leads and architects.",
+      "summary": "Joined as founding engineer and grew into leading the full engineering org — ultimately overseeing 50+ engineers, 8 tech leads, and 3 architects across a multi-product SaaS ecosystem.",
       "highlights": [
-        "Led talks with engineering teams on how to diagram and document architectures using C4 model; How to have a clean code / architecture / workflow by using design patterns, architecture patterns and DevOps practices.",
-        "Technically inverviewed engineers and architects to build a team up to ~60 people.",
-        "Stabilized existing MVP using design patterns, monitoring the system health with alerts and deploying the monolith to AWS with a pipeline."
+        "Architected and scaled a SaaS API from scratch using Serverless Architecture, DDD Layered Architecture, and Ports & Adapters pattern.",
+        "Scaled and led an engineering org of 50+ engineers, 8 tech leads, and 3 architects, driving system design, mentoring, code reviews, and hiring.",
+        "Designed an evolutionary architecture across the product ecosystem focused on scalability, testability, and observability.",
+        "Established Agile and TDD practices as the engineering foundation, improving delivery consistency and code quality.",
+        "Delivered internal talks on C4 model documentation, clean code, design patterns, and DevOps practices org-wide."
       ],
       "keywords": [
-        "SaaS Platform",
-        "Serverless architecture",
-        "GitLab CI",
-        "AWS Lambda",
-        "Node.js",
-        "Python",
-        "PHP",
-        "Next.js",
-        "Docker",
-        "Grafana",
-        "Redis"
+        "TypeScript",
+        "AWS",
+        "Serverless Architecture",
+        "CI/CD",
+        "Domain-Driven Design (DDD)",
+        "Software Architecture",
+        "Systems Design",
+        "Architectural Patterns",
+        "DevOps",
+        "Team Leadership",
+        "Mentoring",
+        "Test Driven Development"
       ]
     },
     {
-      "company": "Fanbot",
-      "position": "Senior Full Stack Engineer",
+      "name": "Fanbot",
+      "location": "Remote",
+      "description": "",
+      "position": "Full Stack Engineer",
       "startDate": "2019-09-01",
       "endDate": "2020-03-20",
-      "location": "Remote",
-      "summary": "Refactored code base to be modular and shipped new features for a Facebook messenger chat bot that had an embedded React minigame as part of the conversation flow.",
-      "highlights": [],
+      "summary": "Built and improved a Facebook Messenger chatbot platform, delivering new features and an embedded interactive experience to drive user engagement.",
+      "highlights": [
+        "Developed and shipped new conversational features for a Facebook Messenger chatbot using Dialogflow, improving conversation flow and user retention.",
+        "Integrated an embedded React-based minigame into the chatbot experience, increasing user interaction depth and session length.",
+        "Refactored the core codebase for modularity, reducing coupling and enabling faster feature iteration."
+      ],
       "keywords": [
-        "Chatbot",
-        "Dialogflow",
-        "Facebook Graph API",
         "Node.js",
-        "React"
+        "React.js",
+        "AWS",
+        "PostgreSQL",
+        "Dialogflow",
+        "CI/CD",
+        "Chatbot Development"
       ]
     },
     {
-      "company": "Paystand",
-      "position": "Senior Full Stack Engineer",
+      "name": "Paystand",
+      "location": "Guadalajara, MX",
+      "description": "",
+      "position": "Full Stack Engineer",
       "url": "https://www.paystand.com",
       "startDate": "2019-02-01",
       "endDate": "2020-01-10",
-      "location": "Guadalajara, MX",
-      "summary": "Develop in a product for B2B payments, providing AR and AP features.",
+      "summary": "Full-stack engineer on a B2B payments platform, delivering microservices, a monolith-to-microservices migration, and compliance-grade data tooling.",
       "highlights": [
-        "Migrated parts of a monolith to a microservice arquitecture.",
-        "Created PCI compliant script to import payers bank/card payment information from Authorize.net.",
-        "Implemented and optimized a multi-schema search with Elasticsearch."
+        "Migrated core components from a monolithic architecture to microservices, improving system flexibility, scalability, and independent deployability.",
+        "Built a PCI-compliant data import script to securely migrate bank and card payment data from Authorize.net, ensuring regulatory compliance.",
+        "Implemented multi-schema search with Elasticsearch, significantly improving search performance and user experience across the platform.",
+        "Developed accounts receivable and payable microservices, expanding core payment features for B2B clients."
       ],
       "keywords": [
-        "Microservices",
-        "Stripe API",
         "Node.js",
+        "PostgreSQL",
         "Elasticsearch",
-        "PostgresSQL",
-        "RabbitMQ",
-        "Automated testing"
+        "Microservices Architecture",
+        "Architectural Patterns",
+        "PCI Compliance",
+        "Scripting",
+        "Fintech"
       ]
     },
     {
-      "company": "H-E-B",
-      "position": "Senior Back End Engineer",
-      "url": "https://www.heb.com",
-      "startDate": "2018-10-01",
-      "endDate": "2019-03-30",
-      "location": "Remote",
-      "summary": "Built a microservice to optimize their web product search, reducing its search time by more than 90%.",
-      "highlights": [],
-      "keywords": [
-        "Node.js",
-        "Elasticsearch",
-        "MySQL"
-      ]
-    },
-    {
-      "company": "H-E-B México",
+      "name": "H-E-B México",
+      "location": "Monterrey, MX | Remote",
+      "description": "",
       "position": "Software Engineer & Architect",
       "url": "https://www.heb.com.mx",
       "startDate": "2017-11-27",
-      "endDate": "2019-01-31",
-      "location": "Monterrey, MX",
-      "summary": "As part of the architecture team was responsible to guide development teams to comply with the company standards. Evaluate and implement security on a variety of internal APIs. Automate processes developing Bash scripts, Node.js CLIs and Jenkins. Design and develop high performance APIs using Node.js.",
+      "endDate": "2019-03-30",
+      "summary": "Contract engagement across architecture and backend engineering for a major retail company, delivering high-performance APIs, search infrastructure, and internal tooling adopted org-wide.",
       "highlights": [
-        "Lead POCs projects for new technologies, such as CA API Gateway, RedHat OpenShift, Docker, Jenkins.",
-        "Designed and implemented a real-time synchronization system (a Node.js ETL) between MongoDB and MSSQL databases using SQL triggers and web sockets.",
-        "Developed internal tools used by multiple teams."
+        "Reduced e-commerce search response time by 90% by implementing Elasticsearch with optimized search algorithms, directly improving customer experience and platform engagement.",
+        "Built a Node.js ETL synchronization system between MongoDB and MSSQL, improving data accuracy and cross-system integration.",
+        "Designed and built high-performance Node.js APIs, improving system efficiency across multiple internal teams.",
+        "Automated development workflows using Shell scripts, Node.js CLIs, and Jenkins pipelines, reducing manual operational overhead.",
+        "Directed POC projects for CA API Gateway, RedHat OpenShift, Docker, and Jenkins to guide informed technology adoption.",
+        "Led security compliance initiatives for internal APIs, strengthening security posture and meeting industry standards."
       ],
       "keywords": [
         "Node.js",
-        "Sequelize",
-        "C#",
-        "Docker",
+        "Elasticsearch",
         "MongoDB",
-        "MS SQL",
-        "Jenkins"
+        "MySQL",
+        "MSSQL",
+        "Docker",
+        "CI/CD",
+        "ETL",
+        "Software Architecture",
+        "Scripting",
+        "Automation",
+        "Search Optimization"
       ]
     },
     {
-      "company": "Waspe",
-      "position": "Junior Full Stack Engineer",
+      "name": "Waspe",
+      "location": "Monterrey, MX",
+      "description": "",
+      "position": "Full Stack Engineer",
       "url": "http://www.waspe.com",
       "startDate": "2016-06-24",
       "endDate": "2017-11-24",
-      "location": "Monterrey, MX",
-      "summary": "Developed microservices on Node.js, mail delivery, push notifications (FCM), download and update center for desktop applications (nuts), cron task scheduling. Maintenance of a web ERP built on Marionette and C# with EF. Maintenance of desktop applications made with electron and WPF.",
+      "summary": "Full-stack engineer on a multi-product ERP ecosystem, delivering microservices, system integrations, compliance features, and a 95% reduction in deployment time.",
       "highlights": [
-        "Direct contact with customer to manage and implement integrations with other ERPs.",
-        "Real-time data synchronization of entities (bi-directional) between the in-house web ERP and SAP B1 through a Node.js microservice.",
-        "Reduced deployment time by 95% by implementing CI/CD with Gulp and GitHub webhooks.",
-        "Implemented Peru's electronic invoice with SUNAT on their web ERP."
+        "Reduced deployment time by 95% by implementing CI/CD automation with Gulp and GitHub webhooks, enabling faster and more reliable releases.",
+        "Implemented real-time bi-directional data sync between the in-house ERP and SAP B1 via a Node.js microservice, improving data accuracy and operational efficiency.",
+        "Delivered Peru's SUNAT-compliant electronic invoicing integration into the ERP, ensuring regulatory compliance.",
+        "Built Node.js microservices for mail delivery and push notifications via FCM, improving system reliability and user engagement.",
+        "Developed a centralized download and update hub for desktop applications, streamlining feature delivery across the user base."
       ],
       "keywords": [
-        "Microservices",
+        "Node.js",
+        "CI/CD",
+        "ETL",
+        "ERP Integration",
+        "Electron",
         "C#",
         "Entity Framework",
-        "Windows Presentation Foundation",
-        "Node.js",
-        "Electron",
-        "Gulp",
-        "CI/CD pipelines"
+        "Automation",
+        "E-invoicing",
+        "SAP B1"
       ]
     },
     {
-      "company": "Epicor Software",
-      "position": "Junior Software Engineer",
+      "name": "Epicor Software",
+      "location": "Monterrey, MX",
+      "description": "",
+      "position": "Software Engineer",
       "url": "https://www.epicor.com",
       "startDate": "2014-11-01",
       "endDate": "2015-04-30",
-      "location": "Monterrey, MX",
-      "summary": "Shipped features and maintained a web ERP built with VB.NET and JQuery.",
+      "summary": "Software engineering internship at an enterprise ERP company, contributing full-stack features and internal service integrations.",
       "highlights": [
-        "Lead project development to visually live edit sections of a web ERP using JQuery.",
-        "Integrated internal services into a VB.NET monolith.",
-        "Performed and documented testing."
+        "Delivered new features and live-editing capabilities for a web ERP system using VB.NET and jQuery.",
+        "Integrated multiple internal services into the VB.NET monolith, improving system cohesion and operational efficiency."
       ],
       "keywords": [
-        "Visual Basic",
-        "JQuery",
-        "Testing"
+        "VB.NET",
+        "JavaScript",
+        "jQuery",
+        "Software Testing",
+        "ERP"
       ]
     }
   ],
@@ -380,9 +419,9 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T12:24:29.000Z",
+    "lastModified": "2026-03-20T14:52:51.000Z",
+    "language": "en",
     "theme": {
-      "language": "en",
       "sectionOrder": [
         "basics",
         "skills",
