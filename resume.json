@@ -273,13 +273,14 @@
   ],
   "volunteer": [
     {
-      "organization": "AngularUI",
+      "organization": "Open Source Projects",
       "position": "Contributor",
-      "url": "https://angular-ui.github.io",
+      "url": "https://github.com/waldoibarra#js-contribution-activity-description",
       "startDate": "2015-10-01",
-      "endDate": "2015-10-01",
-      "summary": "Contributed to open source project to improve software quality.",
-      "highlights": []
+      "summary": "Contributing to open source projects to improve software quality and give back to the community.",
+      "highlights": [
+        "Fixed bugs and added new features."
+      ]
     }
   ],
   "education": [
@@ -302,7 +303,7 @@
     },
     {
       "institution": "Universidad Autónoma de Nuevo León",
-      "url": "https://www.uanl.mx",
+      "url": "https://uanl.mx",
       "area": "Software Technology",
       "studyType": "Bachelor of Engineering —",
       "startDate": "2009-08-04",
@@ -454,11 +455,57 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Average True Range In Ticks — TradingView Indicator",
+      "description": "This is trading indicator that shows you the volatility of current ticker.",
+      "highlights": [
+        "This indicator allows you to select to visualize the ATR in either ticks or points.",
+        "Allows for multi-timeframe analysis by selecting a different timeframe than the chart's."
+      ],
+      "keywords": [
+        "ATR",
+        "Ticks",
+        "TradingView",
+        "Indicator",
+        "Pine"
+      ],
+      "startDate": "2025-10-23",
+      "endDate": "2025-10-25",
+      "url": "https://github.com/waldoibarra/atr-in-ticks-tradingview-indicator",
+      "roles": [
+        "Maintainer"
+      ],
+      "entity": "TradingView",
+      "type": "Open Source"
+    },
+    {
+      "name": "Actionhero OAS Plugin",
+      "description": "Repository to auto-generate OpenAPI Specification documentation for Actionhero APIs.",
+      "highlights": [
+        "Sets up a beautiful UI to document your API conforming to OAS (Swagger) specs."
+      ],
+      "keywords": [
+        "Node.js",
+        "API",
+        "OAS",
+        "Swagger",
+        "Documentation"
+      ],
+      "startDate": "2018-04-29",
+      "endDate": "2019-12-22",
+      "url": "https://github.com/waldoibarra/ah-oas-plugin",
+      "roles": [
+        "Maintainer"
+      ],
+      "entity": "Actionhero",
+      "type": "Open Source"
+    }
+  ],
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T16:37:56.000Z",
+    "lastModified": "2026-03-20T18:48:28.000Z",
     "language": "en",
     "theme": {
       "sectionOrder": [
