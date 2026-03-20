@@ -271,7 +271,17 @@
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "AngularUI",
+      "position": "Contributor",
+      "url": "https://angular-ui.github.io",
+      "startDate": "2015-10-01",
+      "endDate": "2015-10-01",
+      "summary": "Contributed to open source project to improve software quality.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "Self-Directed Study",
@@ -449,7 +459,7 @@
   "meta": {
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2026-03-20T16:00:46.000Z",
+    "lastModified": "2026-03-20T16:29:43.000Z",
     "language": "en",
     "theme": {
       "sectionOrder": [
