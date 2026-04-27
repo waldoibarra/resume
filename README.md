@@ -19,7 +19,6 @@ an update of the HTML version of it on the JSON resume registry.
 Install dependencies.
 
 ```bash
-nvm install
 npm install
 ```
 
@@ -32,13 +31,13 @@ The resume is currently only using the `StackOverflow` theme.
 Update the resume (`resume.json`) and serve it.
 
 ```bash
-npm run dev
+just serve
 ```
 
 Export to HTML.
 
 ```bash
-npm run export:html
+just export
 ```
 
 ## Use Local Theme Updates
@@ -48,12 +47,12 @@ Clone the theme repository and symlink the JSON resume.
 ```bash
 mkdir -p ~/projects/open-source/
 git clone git@github.com:phoinixi/jsonresume-theme-stackoverflow.git ~/projects/open-source/jsonresume-theme-stackoverflow
-make link
+just link
 ```
 
 Serve and export the resume.
 
 ```bash
-make serve
-make export
+just serve-local
+just export-local
 ```
