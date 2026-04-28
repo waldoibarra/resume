@@ -1,11 +1,21 @@
 resume_dir := justfile_directory()
 opensource_projects_dir := env_var('HOME') / "projects/open-source"
 stackoverflow_theme_dir := opensource_projects_dir / "jsonresume-theme-stackoverflow"
+portfolio_dir := env_var('HOME') / "projects/personal/portfolio"
 
 # Show available recipes.
 [private]
 default:
   @just --list --unsorted
+
+# Validate the resume's schema.
+validate:
+  @npx resume validate resume.json && echo "🔷 Resume JSON schema validation succeeded. 🔷"
+
+# Update the resume's last modified date.
+[private]
+update-last-modified-date:
+  @npx tsx scripts/update-resume-date.ts
 
 # Serve resume at https://localhost:4000/.
 serve:

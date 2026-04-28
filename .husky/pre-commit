@@ -1,1 +1,1 @@
-npx resume validate resume.json && echo "Resume JSON schema validation succeeded."
+just validate

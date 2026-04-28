@@ -49,7 +49,7 @@ async function updateResumeLastModified(resumeJsonFile: string): Promise<void> {
   ]);
 
   if (resume.meta.lastModified === lastModified) {
-    console.log(`Resume JSON meta.lastModified is already up to date: ${lastModified}`);
+    console.log(`🔷 Resume JSON meta.lastModified is already up to date: ${lastModified} 🔷\n`);
     return;
   }
 
@@ -60,7 +60,7 @@ async function updateResumeLastModified(resumeJsonFile: string): Promise<void> {
   await amendCommitFile(resumePath);
 
   console.log(
-    `Amended commit (${resumeJsonFile}) with meta.lastModified: ${lastModified}`,
+    `🔷 Amended commit (${resumeJsonFile}) with meta.lastModified: ${lastModified} 🔷\n`,
   );
 }
 
