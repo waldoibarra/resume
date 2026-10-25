@@ -19,7 +19,7 @@ an update of the HTML version of it on the JSON resume registry.
 Install dependencies.
 
 ```bash
-npm install
+just setup
 ```
 
 ## Themes

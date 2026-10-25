@@ -8,6 +8,10 @@ portfolio_dir := env_var('HOME') / "projects/personal/portfolio"
 default:
   @just --list --unsorted
 
+# Install dependencies.
+setup:
+  npm install
+
 # Validate the resume's schema.
 validate:
   @npx resume validate resume.json && echo "🔷 Resume JSON schema validation succeeded. 🔷"
@@ -32,11 +36,16 @@ link:
 # Serve resume at https://localhost:4000/ (using locally cloned theme).
 serve-local:
   cd {{stackoverflow_theme_dir}} && npm run build
-  cd {{stackoverflow_theme_dir}} && npx resume-cli serve -t .
+  cd {{stackoverflow_theme_dir}} && npx -y resume-cli serve -t .
 
 # Export locally to an HTML file (using locally cloned theme).
 export-local:
   cd {{stackoverflow_theme_dir}} && npm run build
-  cd {{stackoverflow_theme_dir}} && npx resume-cli export resume.html -t .
+  cd {{stackoverflow_theme_dir}} && npx -y resume-cli export resume.html -t .
   mv {{stackoverflow_theme_dir}}/resume.html {{resume_dir}}
   @printf "\n🔷 Moved HTML file to: ./resume.html 🔷\n"
+
+# Deploy resume HTML using my portfolio website.
+deploy: export-local
+  mv resume.html {{portfolio_dir}}/public/
+  @printf "\n🔷 Done deploying. Now manually create a CloudFront invalidation. 🔷\n"
