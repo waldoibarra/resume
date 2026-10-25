@@ -1,58 +1,17 @@
-# Resume — Waldo Ibarra
+# Waldo Ibarra's résumé
 
-This is a repository to have my JSON resume, with some automations.
+This repository keeps my résumé in [JSON Resume](https://jsonresume.org/) format.
+It provides local preview and HTML export through the StackOverflow theme.
 
-See it deployed here:
+View the [current portfolio résumé](https://waldo.love/resume).
+The [previous website address](https://waldoibarra.com/resume.html) is historical.
+The [original JSON Resume registry URL](https://registry.jsonresume.org/waldoibarra)
+redirects to [my JSON Resume page](https://jsonresume.org/@waldoibarra).
+This redirect does not confirm when résumé changes appear there.
+This repository is based on
+[Thomas Davis's résumé repository](https://github.com/thomasdavis/resume).
 
-- My personal website: [https://waldoibarra.com/resume.html](https://waldoibarra.com/resume.html)
-- The JSON registry, loaded from my gist: [https://registry.jsonresume.org/waldoibarra](https://registry.jsonresume.org/waldoibarra) (probably broken)
-
-> This is based on Thomas Davis [resume](https://github.com/thomasdavis/resume) repo.
-
-## Automations
-
-When the [resume.json](resume.json) file changes, it updates a gist on my account; that triggers
-an update of the HTML version of it on the JSON resume registry.
-
-## Setup
-
-Install dependencies.
-
-```bash
-just setup
-```
-
-## Themes
-
-The resume is currently only using the `StackOverflow` theme.
-
-## Quick Start
-
-Update the resume (`resume.json`) and serve it.
-
-```bash
-just serve
-```
-
-Export to HTML.
-
-```bash
-just export
-```
-
-## Use Local Theme Updates
-
-Clone the theme repository and symlink the JSON resume.
-
-```bash
-mkdir -p ~/projects/open-source/
-git clone git@github.com:phoinixi/jsonresume-theme-stackoverflow.git ~/projects/open-source/jsonresume-theme-stackoverflow
-just link
-```
-
-Serve and export the resume.
-
-```bash
-just serve-local
-just export-local
-```
+For local editing, validation, and publication boundaries, read
+[maintenance](docs/maintenance.md).
+For established terms, read the [glossary](GLOSSARY.md).
+Pending work remains in [TODO](TODO.md).

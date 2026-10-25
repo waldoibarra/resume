@@ -12,16 +12,11 @@ default:
 setup:
   npm install
 
-# Validate the resume's schema.
+# Validate the working resume's schema. The commit hook checks staged bytes.
 validate:
   @npx resume validate resume.json && echo "🔷 Resume JSON schema validation succeeded. 🔷"
 
-# Update the resume's last modified date.
-[private]
-update-last-modified-date:
-  @npx tsx scripts/update-resume-date.ts
-
-# Serve resume at https://localhost:4000/.
+# Serve resume at http://localhost:4000/.
 serve:
   npm run dev
 
@@ -33,7 +28,7 @@ export:
 link:
   ln -sf {{resume_dir}}/resume.json {{stackoverflow_theme_dir}}/resume.json
 
-# Serve resume at https://localhost:4000/ (using locally cloned theme).
+# Serve resume at http://localhost:4000/ (using locally cloned theme).
 serve-local:
   cd {{stackoverflow_theme_dir}} && npm run build
   cd {{stackoverflow_theme_dir}} && npx -y resume-cli serve -t .
@@ -45,7 +40,7 @@ export-local:
   mv {{stackoverflow_theme_dir}}/resume.html {{resume_dir}}
   @printf "\n🔷 Moved HTML file to: ./resume.html 🔷\n"
 
-# Deploy resume HTML using my portfolio website.
+# Legacy local staging only: move HTML to portfolio/public/resume.html; CI publishes /resume separately.
 deploy: export-local
   mv resume.html {{portfolio_dir}}/public/
   @printf "\n🔷 Done deploying. Now manually create a CloudFront invalidation. 🔷\n"
